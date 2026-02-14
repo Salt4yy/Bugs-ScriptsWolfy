@@ -44,10 +44,11 @@ Le système de cache distribué conserve cette valeur erronée indéfiniment car
 
 ## ⚠️ Impact et Limites
 
-**Impact :** Possibilité de jouer plusieurs parties simultanément (avantages déloyaux, farming, etc.).
+**Impact :** Possibilité de jouer plusieurs parties simultanément (avantages déloyaux, farming, etc.) et de contourner un ban : lorsqu'un compte est banni, il est exclu de sa dernière partie. Mais s'il est marqué comme dans aucune partie, ou sur plusieurs (l'exclut de la dernière à laquelle il s'est connecté), et qu'il est banni pour une durée indeterminée, il peut s'auto-bannir sur une de ses parties restantes (en disant 5 mots offensants) et ainsi transformer n'importe quel ban en ban de 2j.
+
 
 **Limites connues :**
-*   **Partie commencée :** Chevaucher les sockets *après* le début de la partie ne semble pas déclencher le bug (état stocké différemment ?).
+*   **Partie commencée :** Chevaucher les sockets *après* le début de la partie ne semble pas déclencher le bug (état stocké différemment ?), utiliser le GoToNextGame pour bypass.
 *   **Contournement avancé :** Il est possible d'exploiter la faille sur une partie commencée en utilisant `GoToNextGame` (non patché) : chevaucher la socket de la nouvelle game, puis revenir à la partie initiale.
 
 ## 💡 Piste de correction
