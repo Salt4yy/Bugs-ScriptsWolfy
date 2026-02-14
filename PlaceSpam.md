@@ -1,4 +1,4 @@
-# Wolfy Place Spam (Interface Utilisateur Parfaite)
+# Wolfy Place Spam 
 
 Ce script utilisateur (UserScript) ajoute une interface flottante et moderne sur le site `wolfy.net` pour automatiser l'envoi de messages de changement de place (spam) dans le jeu. L'interface permet d'activer ou de désactiver le spam et d'en régler la vitesse.
 
@@ -21,7 +21,7 @@ Le script fonctionne en deux parties principales :
 
 ```javascript
 // ==UserScript==
-// @name         Wolfy Place spam (Perfect UI)
+// @name         Wolfy Place spam 
 // @namespace    http://tampermonkey.net/
 // @version      7.1
 // @description  Tools for Wolfy with modern centered UI
