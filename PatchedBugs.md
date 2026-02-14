@@ -14,6 +14,7 @@ Ce bug permet de désynchroniser le nombre de slots d'une partie par rapport aux
 *   **Comportement actuel :** Un slot de joueur est retiré, mais le rôle reste affiché. Cela désynchronise le compteur de joueurs et permet de dépasser la limite de 20 joueurs.
 *   **Comportement attendu :** Le serveur devrait valider que le couple `(roleId, variantId)` correspond à un élément de la composition et rejeter la requête si ce n'est pas le cas. Or il ne vérifie que le roleId, s'il est présent, il retire un slot puis retire le role précis avec le variantId 
 *   **Impact :** Création de parties avec des règles corrompues.
+<img width="443" height="323" alt="image" src="https://github.com/user-attachments/assets/241dfe4c-863c-4a13-a296-9283d10032dd" />
 
 ---
 
