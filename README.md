@@ -53,4 +53,4 @@ Analyses techniques de failles logiques et critiques découvertes sur l'infrastr
 
 ## 👤 Auteur
 
-**Salt4yy** - Recherche de vulnérabilités, Reverse Engineering WebSocket & Développement d'outils.
+**Salt4y** - Recherche de vulnérabilités, Reverse Engineering & Développement d'outils.
