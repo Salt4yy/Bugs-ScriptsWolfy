@@ -1,6 +1,6 @@
 # 📊 Wolfy Leaderboard Tracker
 
-Ce script surveille en temps réel le classement de Wolfy pour détecter les changements d'XP. Lorsqu'un joueur gagne de l'XP, cela signifie qu'il est en train de jouer, et une notification est immédiatement envoyée via un Webhook Discord.
+Ce script surveille en temps réel le classement Wolfy (donc il faut rajouter les joueurs à son classement pour les traquer) du joueur associé au token inséré pour détecter les changements d'XP. Lorsqu'un joueur gagne de l'XP, cela signifie qu'il est en train de jouer, et une notification est immédiatement envoyée via un Webhook Discord.
 
 ### 🛠️ Configuration
 Dans le code, modifie les variables suivantes :
