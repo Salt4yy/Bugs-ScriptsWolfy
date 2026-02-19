@@ -23,6 +23,7 @@ Ces outils améliorent l'interface ou automatisent des actions via Tampermonkey.
 | **[`GenerateurCompteWolfy.md`](./GenerateurCompteWolfy.md)** | Système complet (Node.js + UI) pour générer des comptes en masse, valider les emails et gérer une flotte de bots via Proxys. | **Botting** |
 | **[`AnonymeDetector.md`](./AnonymeDetector.md)** | Script permettant de révéler le vrai pseudo des joueurs en mode "Anonyme" (Alpha) et des Modérateurs via une base de données externe. | **OSINT** |
 | **[`PlaceSpam.md`](./PlaceSpam.md)** | Interface UI moderne et flottante pour spammer les changements de place dans un salon. | **Utility** |
+| **[`WolfyTracker.md`](./WolfyTracker.md)** | Tracker de leaderboard (Node.js) qui alerte sur Discord via Webhook lors d'un changement d'XP (idéal pour être notifié quand quelqu'un joue). | **Monitoring** |
 
 ### 🐛 Rapports de Vulnérabilités & Exploits
 
