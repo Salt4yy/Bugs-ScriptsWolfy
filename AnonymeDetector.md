@@ -9,7 +9,7 @@ Il contourne la fonctionnalité d'anonymat en se basant sur une base de données
 Le script opère en trois étapes distinctes et efficaces :
 
 #### 1. Collecte de Données (Phase d'Initialisation)
-Au chargement de la page, le script utilise `GM_xmlhttpRequest` pour contacter une base de données hébergée sur **GitHub Gist**, scrapée lorsque l'endpoint api/autocomplete/query était vulnérable et sans rate limit (sécurisé maintenant).
+Au chargement de la page, le script utilise `GM_xmlhttpRequest` pour contacter une base de données hébergée sur **GitHub Gist**, scrapée lorsque l'endpoint api/autocomplete/query était vulnérable et sans rate limit (sécurisé maintenant grace à ma contribution).
 *   **Source :** Un fichier `players_filtered.ndjson` contenant une liste d'objets JSON, un par ligne.
 *   **Filtrage :** Le script parcourt ce fichier et ne conserve que les joueurs ayant le rang "Alpha" ou "Modérateur".
 *   **Stockage :** Il charge ces informations (ID, pseudo, rang) dans une `Map` en mémoire pour un accès quasi-instantané.
