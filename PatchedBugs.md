@@ -1,5 +1,6 @@
 ## 📄 Résumé
 Ce rapport documente une série de vulnérabilités critiques découvertes lors de tests, permettant de provoquer des crashs client, des crashs serveur, et de manipuler les règles de création de partie de manière illégitime.
+Elles sont actuellement sécurisées grace à ma contribution.
 
 Les bugs sont détaillés ci-dessous.
 
