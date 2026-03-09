@@ -5,7 +5,7 @@ Ce script surveille en temps réel le classement Wolfy (donc il faut rajouter le
 ### 🛠️ Configuration
 Dans le code, modifie les variables suivantes :
 - `WEBHOOK_URL` : Ton lien de webhook Discord.
-- `cookie` : Ton token Wolfy (à récupérer dans l'inspecteur d'élément, onglet Application -> Cookies).
+- `cookie` : Le token d'un compte Wolfy avec les joueurs à traquer ajoutés à son leaderboard (à récupérer dans l'inspecteur d'élément, onglet Application -> Cookies).
 
 ### 📦 Installation
 Il est nécessaire d'installer la bibliothèque `axios` pour que le script fonctionne :
