@@ -19,7 +19,7 @@ Ce projet est une suite d'outils d'automatisation pour la plateforme **Wolfy.net
 
 2.  **Gestion Multi-Comptes (Frontend)** :
     *   Le script utilise une implémentation personnalisée du protocole **Socket.IO** (Polling).
-    *   Chaque requête réseau d'un "bot" passe par un **Worker Cloudflare** (CORS Proxy) pour masquer l'origine et permettre la multi-connexion depuis un seul navigateur.
+    *   Chaque requête réseau d'un "bot" passe par un **Worker Cloudflare** (CORS Proxy) pour masquer l'origine et permettre la multi-connexion depuis un seul navigateur ( vous pouvez simplement utiliser un backend local ça fera l'affaire).
 
 ---
 
