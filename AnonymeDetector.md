@@ -39,7 +39,7 @@ Si un ID correspond à une entrée dans la base de données, le script injecte d
 Pour neutraliser ce type de script, plusieurs solutions peuvent être envisagées côté serveur :
 
 1.  **Changer les URLs des Avatars :** La solution la plus simple. Modifier la structure de l'URL des avatars (ex: ne plus y inclure l'ID de manière directe) casserait instantanément la méthode de détection du script.
-2.  **Utiliser des IDs de Session :** Remplacer l'ID utilisateur permanent par un identifiant temporaire, unique à chaque partie, dans les URLs publiques comme celles des avatars.
+2.  **Utiliser des IDs de Session :** Remplacer l'ID utilisateur permanent par un identifiant temporaire, unique à chaque partie, dans les URLs publiques comme celles des avatars. (actuellement implémentée)
 
 ---
 
