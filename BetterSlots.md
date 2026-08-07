@@ -1,4 +1,4 @@
-# Wolfy BetterSlots
+# Wolfy BetterSlots (ne marche plus après la dernière mise à jour)
 
 ## Le Besoin
 
