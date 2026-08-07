@@ -1,4 +1,4 @@
-## 📄 Résumé
+## 📄 Résumé (les id ano et hors ano ne sont plus les mêmes donc le détecteur ne marche plus aussi efficacement qu'avant (voir anodetectorpostpatch) 
 
 Ce script UserScript a pour objectif d'identifier et d'afficher le pseudonyme des joueurs utilisant le mode anonyme (rang "Alpha") ainsi que celui des modérateurs sur le jeu Wolfy.
 
