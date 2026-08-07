@@ -1,4 +1,4 @@
-# 🐺 Wolfy Tools: Batch Generator & Multi-Account Manager
+# 🐺 Wolfy Tools: Batch Generator & Multi-Account Manager (les alias ne sont plus considérés comme des mails différents donc il faudrait utiliser des tempmail)
 
 Ce projet est une suite d'outils d'automatisation pour la plateforme **Wolfy.net**. Il se compose de deux parties :
 1.  **Backend (Node.js)** : Un serveur local capable de générer des comptes en masse, de valider les emails automatiquement via l'API Gmail et de configurer les comptes via des proxys.
